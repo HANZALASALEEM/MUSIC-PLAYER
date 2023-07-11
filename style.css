@@ -1,0 +1,82 @@
+body{
+    height:100%;
+    width:100%;
+    background-image: url(MEDIA/music.jpg);
+    background-size: 243vh;
+   background-position: center;
+    position: relative;
+}
+/* *{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    height:100%;
+    width: 100%;
+    
+    
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 75%;
+}
+
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a{
+    text-decoration: solid;
+    color: rgb(0, 130, 93);
+    font-size: 20px;
+    margin: 0 15px;
+}
+
+.content{
+    top: 65%;
+    position: absolute;
+    width: 100%;
+}
+
+.left-col{
+    margin-left: 3%;
+}
+.left-col h1{
+    color: darkslategrey;
+    line-height: 80px;
+    float: left;
+    margin-top: 33%;
+    font-size: 50px;
+}
+.right-col{
+    float: right;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    margin-top: 18%;
+}
+
+
+.right-col p{
+    color: darkslategrey;
+    margin-right: 8px;
+    font-size: 20px;
+}
+.play{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
